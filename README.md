@@ -4,6 +4,9 @@
 
 Setup
 ```
+# install dependencies
+$ bundle install
+
 # recreate and setup database
 $ bundle exec rails db:drop db:create db:migrate db:seed
 
